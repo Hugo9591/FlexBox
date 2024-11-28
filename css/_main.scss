@@ -1,0 +1,24 @@
+.main{
+    background: #fff;
+    padding: 20px;
+    width: 70%;
+    article{
+        .thumb{
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+        h2{
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-size: 32px;
+        }
+        p{
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 27px;
+        }
+    }
+}

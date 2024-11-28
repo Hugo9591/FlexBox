@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    /* padding: 50px 0; */
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;/*Un elemento a lado del otro*/
+    justify-content: space-between;
+    align-items: center;
+    .menu a{
+        color: #fff;
+        text-decoration: none;
+        /* margin-left: 20px; */
+        font-size: 18px;
+        width: 35.3%;
+        padding: 20px;
+        border-radius: 3px;
+        &:hover{
+            background: #fff;
+            color: #000;
+        }
+    }
+    .logo img{
+        width: 27%;
+    }
+    
+}
